@@ -4,8 +4,8 @@ import AdBox1Table from "./AdBox1Table";
 
 const AdBox1 = () => {
   return (
-    <div className="">
-      <h1 className="text-[#3A2A82] text-lg text-center mt-28">
+    <div className="px-4 md:px-32">
+      <h1 className="text-[#3A2A82] text-lg text-center pt-28">
         All-in-One
         <span className="my-1 block text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#4F14AD] to-[#FE276E]">
           Advertising Powerhouse
@@ -15,8 +15,8 @@ const AdBox1 = () => {
           AI.
         </span>
       </h1>
-      <div className="bg-white bg-opacity-10 w-full flex items-center flex-col border border-white p-16 rounded-2xl">
-        <div className="grid grid-cols-1 sm:grid-cols-2 justify-center gap-6 rounded-2xl ">
+      <div className="bg-white bg-opacity-10 w-full flex items-center flex-col border border-white p-4 md:p-16 rounded-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-10 md:gap-6 rounded-2xl ">
           {adBox1Data.map((value, i) => {
             return (
               <div key={i}>

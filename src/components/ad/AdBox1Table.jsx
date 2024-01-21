@@ -2,7 +2,7 @@
 
 const AdBox1Table = (props) => {
   return (
-    <div className=" bg-white bg-opacity-25 hover:bg-opacity-70 border border-white rounded-2xl w-[400px] h-[450px] p-3">
+    <div className=" bg-white bg-opacity-25 hover:bg-opacity-70 border border-white rounded-2xl w-auto h-[450px] p-3">
       <img src={props.image} alt="logo" className="h-[250px] w-[400px]"></img>
 
       <div className="px-3 py-5">

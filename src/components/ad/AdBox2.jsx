@@ -4,9 +4,9 @@ import { adBox2Data } from "../../assets/adBox2Data";
 
 const AdBox2 = () => {
   return (
-    <div className="flex px-32">
-      <div className="flex-1 flex flex-col justify-center">
-        <h1 className="text-3xl text-[#3A2A82]">
+    <div className="flex flex-col md:flex-row px-4 md:px-48">
+      <div className="flex-1 flex flex-col justify-center items-center">
+        <h1 className="text-3xl text-[#3A2A82] text-center md:text-left">
           Why
           <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#5515AA] to-[#FE296E]">
             AdCreative.ai?

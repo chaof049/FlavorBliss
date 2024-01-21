@@ -1,9 +1,27 @@
 import { BsStack } from "react-icons/bs";
 import TiltCard from "../TiltCard";
 import HeroAnimation from "./HeroAnimation";
-import { heroAnimationData } from "../../assets/heroAnimationData";
+import {
+  heroAnimation2Data,
+  heroAnimationData,
+} from "../../assets/heroAnimationData";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const HeroTop = () => {
+  const settings = {
+    dots: false,
+    arrows: false,
+    fade: true,
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    pauseOnHover: false,
+  };
   return (
     <div className="border-2 border-white flex flex-col items-center rounded-lg bg-white bg-opacity-30">
       <img
@@ -26,19 +44,31 @@ const HeroTop = () => {
         </span>
       </button>
       <div className="mt-4 flex flex-col items-center">
-        <div className="grid grid-cols-4 gap-2  bg-[#F4F2FB] p-3 rounded-2xl">
-          {heroAnimationData.map((value, i) => {
+        <div className="grid grid-cols-1 p-3 rounded-2xl">
+          {/* <div className="flex justify-center bg-[#F4F2FB] p-3 rounded-2xl"> */}
+          <Slider {...settings} className="">
+            {heroAnimationData.map((value, i) => {
+              return (
+                <div key={i} className="w-full flex px-72">
+                  <HeroAnimation value={value}></HeroAnimation>
+                </div>
+              );
+            })}
+          </Slider>
+        </div>
+
+        <div className="grid grid-cols-1 p-3 rounded-2xl px-32">
+
+        <Slider {...settings} className="">
+          {heroAnimation2Data.map((images, i) => {
             return (
-              <div key={i}>
-                <HeroAnimation
-                  title={value.title}
-                  image={value.image}
-                ></HeroAnimation>
+              <div key={i} className="w-full">
+                <TiltCard images={images}></TiltCard>
               </div>
             );
           })}
+        </Slider>
         </div>
-        <TiltCard></TiltCard>
       </div>
     </div>
   );

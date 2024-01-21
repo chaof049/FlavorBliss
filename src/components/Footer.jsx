@@ -1,10 +1,51 @@
+import { BsStack } from "react-icons/bs";
+
 const Footer = () => {
   return (
-    <div className="bg-[url('/bottom-v.png')] py-8 h-[100vh] bg-no-repeat bg-contain">
-      {/* <div className=" bg-[#181231]">
-        <div className="grid grid-cols-3  px-32">
-          <div className="text-[#BBC4DC]">
-            <img src="/hero_logo.png"></img>
+    <div className="bg-[#1F1540]">
+      <div className="p-48">
+        <div className="flex flex-col-2 border border-[#5E5776] bg-white bg-opacity-20 p-8 rounded-xl">
+          <div className="flex-1">
+            <h1 className="text-base text-[#BBC4DC]">
+              READY TO START?
+              <span className="text-wrap text-lg font-semibold text-[#FFFFFF] block">
+                Bring your ad creative game to the next level with
+                AdCreative.ai!
+              </span>
+            </h1>
+            <button className="flex items-center my-2 px-3 py-3 rounded-xl border border-white border-opacity-20 bg-white hover:bg-[#3A2A82] text-[#FE2F67] hover:text-white font-bold shadow-md">
+              Generate Ad Creatives
+              <span className="ml-1">
+                <BsStack />
+              </span>
+            </button>
+            <h1 className=" text-xs text-white ">
+              Try 100% free for 7 days.
+              <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#FE296E] to-[#FBC821]">
+                Cancel Anytime
+              </span>
+            </h1>
+          </div>
+          <div className="flex-1">
+            <img src="/ghost.png" alt="ghost" className="h-[200px]"></img>
+          </div>
+        </div>
+      </div>
+      <div className=" bg-[#181231]">
+        <div className="-translate-y-[80%] grid grid-cols-1 gap-12 justify-items-center">
+          <div>
+            <img src="/product1.png" alt="product"></img>
+          </div>
+          <div>
+            <img src="/product2.png" alt="product"></img>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 px-32">
+          <div className="text-[#BBC4DC] text-center md:text-left my-4">
+            <div className="flex justify-center">
+              <img src="/hero_logo.png" alt="logo"></img>
+            </div>
+
             <p className="py-1">Made with ♥ in Paris!</p>
             <p className="py-1">2022 AdCreative.ai | All rights reserved.</p>
             <p className="py-1">
@@ -22,7 +63,7 @@ const Footer = () => {
             <p className="py-1">Creative Insights</p>
             <p className="py-1">Blog</p>
           </div>
-          <div className="text-[#BBC4DC] text-right">
+          <div className="text-[#BBC4DC] text-center md:text-right my-4">
             <p className="py-1">ADCREATIVE.AI</p>
             <p className="py-1">Terms and Conditions</p>
             <p className="py-1">Privacy Policy</p>
@@ -43,7 +84,7 @@ const Footer = () => {
             <img src="/bing.png" className="h-6"></img>
           </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

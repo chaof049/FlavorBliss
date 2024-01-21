@@ -10,7 +10,7 @@ const Ad = () => {
     <div className="bg-[#F5F5FF] flex flex-col">
       <div className="bg-[#1F1540]">
         <div className="flex justify-around ">
-          <p className="flex -translate-y-5">
+          <p className="md:flex -translate-y-5 hidden">
             <img src="/trust5.png"></img>
             <img src="/trust4.png"></img>
           </p>
@@ -20,20 +20,20 @@ const Ad = () => {
             <img src="/in.png" className="h-6"></img>
             <img src="/bing.png" className="h-6"></img>
           </p>
-          <p className="flex -translate-y-5">
+          <p className="md:flex -translate-y-5 hidden">
             <img src="/trust6.png"></img>
             <img src="/trust3.png"></img>
           </p>
         </div>
 
-        <div className="text-center -translate-y-16">
+        <div className="text-center md:-translate-y-16">
           <span className="text-white">
             The secret sauce of{" "}
             <span className="text-[#FBC821]">1,500,000+</span>
             advertisers and brands.
           </span>
         </div>
-        <div className="flex  justify-center my-20">
+        <div className="flex  justify-center my-20 px-4">
           <div className=" border-[1px] border-[#726C88] p-5 flex flex-col items-center rounded-3xl bg-white bg-opacity-10">
             <h1 className=" text-center text-white font-semibold text-xl">
               AdCreative.ai is one of
@@ -74,8 +74,9 @@ const Ad = () => {
             </span>
           </h1>
         </div>
-        <div className="flex justify-center flex-col-2 gap-5 h-[200px] my-8">
-          <div className="p-4 rounded-2xl bg-gradient-to-b from-[#F92F6A] to-[#5615AA]">
+
+        <div className="flex justify-center gap-5 h-[200px] my-8">
+          <div className="p-4 w-auto rounded-2xl bg-gradient-to-b from-[#F92F6A] to-[#5615AA]">
             <FaArrowAltCircleUp className="rounded-lg h-[40px] w-[40px]" />
             <h1 className="text-white text-lg font-bold">
               Up to 14x
@@ -87,7 +88,7 @@ const Ad = () => {
             </h1>
             <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
           </div>
-          <div className="p-4 rounded-2xl bg-gradient-to-b from-[#FBC523] to-[#FA6627]">
+          <div className="p-4 w-auto rounded-2xl bg-gradient-to-b from-[#FBC523] to-[#FA6627]">
             <MdAssistantNavigation className="h-[40px] w-[40px]" />
             <h1 className="text-white text-lg font-bold">
               Over 95%
@@ -100,6 +101,7 @@ const Ad = () => {
             <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
           </div>
         </div>
+
         <div className="flex flex-col items-center">
           <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-md">
             Generate Ad Creatives
@@ -117,6 +119,7 @@ const Ad = () => {
       </div>
 
       <div className="flex  flex-col w-full items-center">
+        {/* AD BOX 1 */}
         <AdBox1></AdBox1>
         <div className="flex flex-col items-center -translate-y-10">
           <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-md">
@@ -133,6 +136,7 @@ const Ad = () => {
           </h1>
         </div>
       </div>
+      {/* AD BOX2 */}
       <AdBox2></AdBox2>
     </div>
   );

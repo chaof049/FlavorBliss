@@ -11,7 +11,7 @@ const HeroBottom = () => {
           founders to global enterprises.
         </span>
       </h1>
-      <div className="mt-4">
+      <div className="mt-4 px-2 md:px-16">
         <div className="flex justify-center items-center flex-wrap gap-4 p-8 rounded-2xl">
           {partners.map((value, i) => {
             return (

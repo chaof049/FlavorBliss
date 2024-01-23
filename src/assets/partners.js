@@ -1,38 +1,38 @@
 export const partners = [
   {
-    image: "/amazon.png",
+    image: "/partners/amazon.png",
   },
   {
-    image: "/microsoft.png",
+    image: "/partners/microsoft.png",
   },
   {
-    image: "/linkedIn.png",
+    image: "/partners/linkedIn.png",
   },
   {
-    image: "/tripAdvisor.png",
+    image: "/partners/tripAdvisor.png",
   },
   {
-    image: "/walmart.png",
+    image: "/partners/walmart.png",
   },
   {
-    image: "/reddit.png",
+    image: "/partners/reddit.png",
   },
   {
-    image: "/siemens.png",
+    image: "/partners/siemens.png",
   },
   {
-    image: "/renault.png",
+    image: "/partners/renault.png",
   },
   {
-    image: "/addidas.png",
+    image: "/partners/addidas.png",
   },
   {
-    image: "/starbucks.png",
+    image: "/partners/starbucks.png",
   },
   {
-    image: "/tiffany.png",
+    image: "/partners/tiffany.png",
   },
   {
-    image: "/lenovo.png",
+    image: "/partners/lenovo.png",
   },
 ];

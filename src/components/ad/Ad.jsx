@@ -10,54 +10,65 @@ const Ad = () => {
     <div className="bg-[#F5F5FF] flex flex-col">
       <div className="bg-[#1F1540]">
         <div className="flex justify-around ">
-          <p className="md:flex -translate-y-5 hidden">
-            <img src="/trust5.png"></img>
-            <img src="/trust4.png"></img>
+          <p className="md:flex -translate-y-2 hidden w-20 h-20">
+            <img src="/banners/banner1.png"></img>
+            <img src="/banners/banner2_4.png"></img>
           </p>
-          <p className="flex gap-2 bg-white rounded-xl py-2 px-3 h-fit -translate-y-1/2">
-            <h1 className="">Preferred Partners of |</h1>
-            <img src="/ins.png" className="h-6"></img>
-            <img src="/in.png" className="h-6"></img>
-            <img src="/bing.png" className="h-6"></img>
+          <p className="flex justify-center items-center gap-2 bg-white rounded-3xl py-2 px-3 h-fit -translate-y-1/2">
+            <h1 className="text-xs">Preferred Partners of |</h1>
+            <img src="/upIcons/fb.png" className="h-5 mr-2"></img>
+            <img src="/upIcons/ins.png" className="h-5 mr-2"></img>
+            <img src="/upIcons/in.png" className="h-5 mr-2"></img>
+            <img src="/upIcons/google.png" className="h-5 mr-2"></img>
+            <img src="/upIcons/bing.png" className="h-5 mr-2"></img>
           </p>
-          <p className="md:flex -translate-y-5 hidden">
-            <img src="/trust6.png"></img>
-            <img src="/trust3.png"></img>
+          <p className="md:flex -translate-y-2 hidden w-20 h-20">
+            <img src="/banners/banner3.png"></img>
+            <img src="/banners/banner2_4.png"></img>
           </p>
         </div>
 
-        <div className="text-center md:-translate-y-16">
-          <span className="text-white">
-            The secret sauce of{" "}
-            <span className="text-[#FBC821]">1,500,000+</span>
-            advertisers and brands.
-          </span>
-        </div>
-        <div className="flex  justify-center my-20 px-4">
-          <div className=" border-[1px] border-[#726C88] p-5 flex flex-col items-center rounded-3xl bg-white bg-opacity-10">
-            <h1 className=" text-center text-white font-semibold text-xl">
-              AdCreative.ai is one of
-              <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#FA6227] to-[#FBC821]">
-                the top 3 fastest growing products in the world!
-              </span>
-            </h1>
-            <img
-              src="/gordon.png"
-              alt="gordon"
-              className="h-[350px] w-[550px] border-8 border-white rounded-3xl"
-            ></img>
-            <Link
-              to={
-                "https://www.g2.com/best-software-companies/2023/fastest-growing?rank=3#rank-3"
-              }
-              target="_"
-              className="text-white text-xs w-full text-center pt-2"
-            >
-              Adcreative.ai is displayed in New York’s Times Square.
-              <span className="underline">Photo by G2</span>
-            </Link>
+        <div>
+          <div className="text-center">
+            <span className="text-white">
+              The secret sauce of{" "}
+              <span className="text-[#FBC821]">1,500,000+</span>
+              advertisers and brands.
+            </span>
+          </div>
+          <div className="flex  justify-center my-20 px-4">
+            <div className=" border-[1px] border-[#726C88] p-5 flex flex-col items-center rounded-3xl bg-white bg-opacity-10">
+              <h1 className=" text-center text-white font-semibold text-xl">
+                AdCreative.ai is one of
+                <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#FA6227] to-[#FBC821]">
+                  the top 3 fastest growing products in the world!
+                </span>
+              </h1>
+              <img
+                src="/gordon.png"
+                alt="gordon"
+                className="h-[350px] w-[550px] border-8 border-white rounded-3xl"
+              ></img>
+              <Link
+                to={
+                  "https://www.g2.com/best-software-companies/2023/fastest-growing?rank=3#rank-3"
+                }
+                target="_"
+                className="text-white text-xs w-full text-center pt-2"
+              >
+                Adcreative.ai is displayed in New York’s Times Square.
+                <span className="underline">Photo by G2</span>
+              </Link>
+            </div>
+          </div>
+          <div className="flex justify-center md:hidden h-20 mb-20">
+            <img src="/banners/fall1.png"></img>
+            <img src="/banners/fall2.png"></img>
+            <img src="/banners/fall3.png"></img>
+            <img src="/banners/fall4.png"></img>
           </div>
         </div>
+
         <div>
           <h1 className="text-lg font-semibold text-white text-center">
             Generate ad creatives that help you sell. Fast.

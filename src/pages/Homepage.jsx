@@ -1,14 +1,14 @@
 import Ad from "../components/ad/Ad";
 import Faq from "../components/faq/Faq";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
 import Hero from "../components/hero/Hero";
+import Navbar from "../components/Navbar";
 import Pricing from "../components/pricing/Pricing";
 
 const Homepage = () => {
   return (
-    <div className="my-custom-font font-my-custom-font bg-[#F5F5FF]">
-      <Header></Header>
+    <div className=" bg-[#F5F5FF]">
+      <Navbar></Navbar>
       <Hero></Hero>
       <Ad></Ad>
       <Pricing></Pricing>

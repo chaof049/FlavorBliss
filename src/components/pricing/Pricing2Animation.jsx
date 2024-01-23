@@ -4,10 +4,10 @@ import Select from "react-select";
 
 const Pricing2Animation = (props) => {
   return (
-    <div className=" bg-white border text-black border-[#F5F5FF] rounded-2xl h-full px-5">
+    <div className=" bg-white border text-black border-[#F5F5FF] rounded-2xl h-full px-8 py-4">
       <h1 className="text-lg font-semibold">{props.pricingList.title}</h1>
 
-      <p className="text-xs text-wrap">{props.pricingList.description}</p>
+      <p className="text-xs text-wrap pb-2">{props.pricingList.description}</p>
       <button className="bg-[#F5F5FF] p-4 text-sm rounded-lg ">
         {/* {Array.isArray(props.pricingList.button1) ? ( */}
         {typeof props.pricingList.button1 === "object" ? (

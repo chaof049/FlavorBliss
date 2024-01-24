@@ -5,7 +5,7 @@ import { adBox2Data } from "../../assets/adBoxesData";
 const AdBox2 = () => {
   return (
     <div className="flex flex-col md:flex-row px-4 md:px-48">
-      <div className="flex-1 flex flex-col justify-center items-center">
+      <div className="flex-1 flex flex-col justify-center">
         <h1 className="text-3xl text-[#3A2A82] text-center font-semibold md:text-left">
           Why
           <span className="block font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#5515AA] to-[#FE296E]">
@@ -22,7 +22,7 @@ const AdBox2 = () => {
             how you should use Adcreative.ai
           </span>
         </h1>
-        <div className="">
+        <div className="flex flex-col items-start w-full">
           <button className=" flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-lg shadow-[#3a2a82a3] hover:shadow-[#fe2f669d]">
             Generate Ad Creatives
             <span className="ml-1">

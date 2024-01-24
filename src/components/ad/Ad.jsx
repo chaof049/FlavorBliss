@@ -66,7 +66,8 @@ const Ad = () => {
             <img src="/banners/fall4.png"></img>
           </div>
         </div>
-
+      </div>
+      <div className="bg-cover bg-center bg-[url('/top-v.png')] bg-no-repeat h-screen relative">
         <div>
           <h1 className="text-lg font-semibold text-white text-center">
             Generate ad creatives that help you sell. Fast.
@@ -118,7 +119,7 @@ const Ad = () => {
               <BsStack />
             </span>
           </button>
-          <h1 className="flex text-xs text-white">
+          <h1 className="flex text-xs text-[#79709B]">
             Try 100% free for 7 days.
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#5414AC] to-[#FF286F]">
               Cancel Anytime

@@ -32,9 +32,11 @@ const Pricing2Animation = (props) => {
           </ul>
         );
       })}
-      <button className="text-white bg-[#FF2F66] p-4 rounded-xl">
-        {props.pricingList.button2}
-      </button>
+      <div className="flex justify-center my-2">
+        <button className=" text-white bg-[#FF2F66] w-full px-8 py-2 rounded-xl">
+          {props.pricingList.button2}
+        </button>
+      </div>
     </div>
   );
 };

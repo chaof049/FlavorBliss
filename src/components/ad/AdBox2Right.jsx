@@ -7,7 +7,7 @@ const AdBox2Right = (props) => {
         <img
           src={props.image}
           alt="image"
-          className=" h-10 bg-[#FFEBF0] p-2 rounded-xl"
+          className=" h-10 bg-[#FF2F66] p-2 rounded-xl shadow-lg shadow-[#ff2f66c0]"
         ></img>
       </div>
 

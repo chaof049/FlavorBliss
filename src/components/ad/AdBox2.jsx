@@ -1,14 +1,14 @@
 import { BsStack } from "react-icons/bs";
 import AdBox2Right from "./AdBox2Right";
-import { adBox2Data } from "../../assets/adBox2Data";
+import { adBox2Data } from "../../assets/adBoxesData";
 
 const AdBox2 = () => {
   return (
     <div className="flex flex-col md:flex-row px-4 md:px-48">
       <div className="flex-1 flex flex-col justify-center items-center">
-        <h1 className="text-3xl text-[#3A2A82] text-center md:text-left">
+        <h1 className="text-3xl text-[#3A2A82] text-center font-semibold md:text-left">
           Why
-          <span className="block bg-clip-text text-transparent bg-gradient-to-r from-[#5515AA] to-[#FE296E]">
+          <span className="block font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#5515AA] to-[#FE296E]">
             AdCreative.ai?
           </span>
           <span className="block text-xs text-[#79709B]">
@@ -23,7 +23,7 @@ const AdBox2 = () => {
           </span>
         </h1>
         <div className="">
-          <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-md">
+          <button className=" flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-lg shadow-[#3a2a82a3] hover:shadow-[#fe2f669d]">
             Generate Ad Creatives
             <span className="ml-1">
               <BsStack />

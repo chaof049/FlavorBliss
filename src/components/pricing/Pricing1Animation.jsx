@@ -6,7 +6,7 @@ const Pricing1Animation = (props) => {
       <img
         src={props.image}
         alt="logo"
-        className="h-[30px] w-[30px] -translate-y-[60%] bg-[#FF2F66] rounded-lg "
+        className="h-8 p-2 -translate-y-[60%] bg-[#FF2F66] rounded-lg shadow-md shadow-[#ff2f66ce]"
       ></img>
 
       <div className="h-full">

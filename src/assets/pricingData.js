@@ -1,3 +1,34 @@
+export const pricingList1Data = [
+  {
+    image: "/pricing/startUp.png",
+    title: "Startups",
+    description:
+      "Spend your money on creatives that convert, make the most of the strongest artificial intelligence on the ad creation market.",
+    button: "Startups",
+  },
+  {
+    image: "/pricing/eCom.png",
+    title: "Ecommerce",
+    description:
+      "Let our machine learning model generate custom creatives  banners for your entire product catalog.",
+    button: "Ecommerce",
+  },
+  {
+    image: "/pricing/agencies.png",
+    title: "Agencies",
+    description:
+      "Generate ad creatives and banners that have up to 14x better conversion rates for your entire client portfolio.",
+    button: "Agencies",
+  },
+  {
+    image: "/pricing/enterprises.png",
+    title: "Enterprises",
+    description:
+      "Generate perfectly on-brand ad creatives, gain AI insights on your visuals, and bring together your entire team and agency.",
+    button: "Enterprises",
+  },
+];
+
 export const pricingList2Data = [
   {
     title: "Free Trial",

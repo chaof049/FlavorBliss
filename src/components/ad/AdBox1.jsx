@@ -1,5 +1,4 @@
-import { adBox1Data } from "../../assets/adBox1Data";
-// import Ad from "./Ad";
+import { adBox1Data } from "../../assets/adBoxesData";
 import AdBox1Table from "./AdBox1Table";
 
 const AdBox1 = () => {
@@ -15,7 +14,7 @@ const AdBox1 = () => {
           AI.
         </span>
       </h1>
-      <div className="bg-white bg-opacity-10 w-full flex items-center flex-col border border-white p-4 md:p-16 rounded-2xl">
+      <div className="bg-white bg-opacity-10 w-full flex items-center flex-col border border-white sm:p-4 md:p-16 rounded-2xl">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-10 md:gap-6 rounded-2xl ">
           {adBox1Data.map((value, i) => {
             return (

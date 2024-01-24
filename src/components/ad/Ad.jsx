@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import { FaArrowAltCircleUp } from "react-icons/fa";
-import { MdAssistantNavigation } from "react-icons/md";
 import { BsStack } from "react-icons/bs";
 import AdBox1 from "./AdBox1";
 import AdBox2 from "./AdBox2";
@@ -88,7 +86,7 @@ const Ad = () => {
 
         <div className="flex justify-center gap-5 h-[200px] my-8">
           <div className="p-4 w-auto rounded-2xl bg-gradient-to-b from-[#F92F6A] to-[#5615AA]">
-            <FaArrowAltCircleUp className="rounded-lg h-[40px] w-[40px]" />
+            <img src="/arrows/up.png" alt="upArrow" className="h-9 mb-2"></img>
             <h1 className="text-white text-lg font-bold">
               Up to 14x
               <span className="block text-sm">Higher Conversion Rates</span>
@@ -100,7 +98,7 @@ const Ad = () => {
             <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
           </div>
           <div className="p-4 w-auto rounded-2xl bg-gradient-to-b from-[#FBC523] to-[#FA6627]">
-            <MdAssistantNavigation className="h-[40px] w-[40px]" />
+            <img src="/arrows/nav.png" alt="upArrow" className="h-9 mb-2"></img>
             <h1 className="text-white text-lg font-bold">
               Over 95%
               <span className="block text-sm">Of the users improve CTR</span>
@@ -114,7 +112,7 @@ const Ad = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-md">
+          <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-lg shadow-[#3a2a82a3] hover:shadow-[#fe2f669d]">
             Generate Ad Creatives
             <span className="ml-1">
               <BsStack />
@@ -133,7 +131,7 @@ const Ad = () => {
         {/* AD BOX 1 */}
         <AdBox1></AdBox1>
         <div className="flex flex-col items-center -translate-y-10">
-          <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-md">
+          <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-lg shadow-[#3a2a82a3] hover:shadow-[#fe2f669d]">
             Generate Ad Creatives
             <span className="ml-1">
               <BsStack />

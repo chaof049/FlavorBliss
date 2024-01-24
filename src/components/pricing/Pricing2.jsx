@@ -1,13 +1,12 @@
-import { pricingList1Data } from "../../assets/pricingList1Data";
 import Pricing1Animation from "./Pricing1Animation";
 import { BsStack } from "react-icons/bs";
 import Pricing2Animation from "./Pricing2Animation";
-import { pricingList2Data } from "../../assets/pricingList2Data";
+import { pricingList1Data, pricingList2Data } from "../../assets/pricingData";
 
 const Pricing2 = () => {
   return (
     <>
-      <div className=" px-4 md:px-32 absolute z-10">
+      <div className=" px-5 md:px-32 absolute z-10">
         <div className="bg-[#1F1541] py-8 px-16 rounded-3xl">
           <div className="pt-4">
             <h1 className="text-2xl text-[#BBC4DC]">
@@ -56,7 +55,7 @@ const Pricing2 = () => {
           </div>
         </div>
       </div>
-      <section className="md:p-16 p-4">
+      <section className="md:p-16">
         <div className="bg-[#FF2F66] p-4 md:p-20 rounded-3xl translate-y-[30%] md:px-16">
           <div className="px-20 mt-1 translate-y-[300%]">
             <h1 className="text-white text-3xl">
@@ -70,8 +69,8 @@ const Pricing2 = () => {
               </span>
             </h1>
           </div>
-          <div className="bg-white bg-opacity-50 p-4 rounded-2xl border border-[#FDFDFF] translate-y-[50%]">
-            <div className="-translate-y-[100%] flex gap-4 px-4">
+          <div className="bg-white bg-opacity-50 p-12 mx-8 md:mx-4 rounded-2xl border border-[#FDFDFF] translate-y-[50%]">
+            <div className="-translate-y-[160%] flex gap-4 px-4">
               <p className="bg-[#1F1540] text-white rounded-xl px-8 py-2">
                 Monthly
               </p>

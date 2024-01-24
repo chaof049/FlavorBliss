@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
         <ul className="md:flex md:items-center z-[-1] md:z-auto">
           <li className="mx-2 my-6 md:my-0">
-            <NavLink to="/" className="px-4 text-[#FE2F67] relative">
+            <NavLink to="/" className=" px-4 text-[#FE2F67] relative">
               <span className="absolute -left-[1px] top-[3px]">
                 <GoHomeFill />
               </span>

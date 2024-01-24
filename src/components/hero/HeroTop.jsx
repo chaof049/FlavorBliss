@@ -47,7 +47,7 @@ const HeroTop = () => {
           Generate ad creatives that outperform
           <span className="block">your competitors.</span>
         </h1>
-        <button className="flex items-center px-3 py-3 rounded-xl bg-[#FE2F67] hover:bg-[#3A2A82] text-white font-bold shadow-md">
+        <button className="flex items-center px-3 py-3 rounded-xl bg-[#FE2F67] hover:bg-[#3A2A82] text-white font-bold shadow-lg shadow-[#fe2f669d] hover:shadow-[#3a2a82a3]">
           Try For Free Now
           <span className="ml-1">
             <BsStack />

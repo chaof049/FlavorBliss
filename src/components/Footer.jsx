@@ -14,7 +14,7 @@ const Footer = () => {
             </span>
           </h1>
         </div>
-        <div className="flex gap-4 px-28 pt-6">
+        <div className="flex gap-4 lg:px-28 pt-6 ">
           {footer2Data.map((value, i) => {
             return (
               <div key={i}>

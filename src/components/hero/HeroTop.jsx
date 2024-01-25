@@ -30,7 +30,7 @@ const HeroTop = () => {
   return (
     <div className="border-2 border-white  rounded-lg bg-white bg-opacity-30 relative">
       <Hamburger></Hamburger>
-      <div className="absolute right-4 text-xs font-semibold mt-2">
+      <div className="absolute lg:right-4 text-xs font-semibold mt-4 mx-2">
         <Language></Language>
       </div>
       <div className="flex flex-col items-center">

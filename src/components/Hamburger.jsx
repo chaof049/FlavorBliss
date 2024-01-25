@@ -11,7 +11,7 @@ const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="absolute top-0 left-0 md:hidden w-full h-full">
+    <div className="absolute top-0 left-0 lg:hidden w-full h-full">
       <div className="w-full flex p-2 justify-end">
         <button
           className="border border-white bg-white bg-opacity-20 rounded-2xl p-2"

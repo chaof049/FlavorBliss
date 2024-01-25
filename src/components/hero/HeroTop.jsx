@@ -1,15 +1,12 @@
 import { BsStack } from "react-icons/bs";
-import TiltCard from "../TiltCard";
 import HeroAnimation from "./HeroAnimation";
-import {
-  heroAnimation2Data,
-  heroAnimationData,
-} from "../../assets/heroAnimationData";
+import { heroAnimationData } from "../../assets/heroAnimationData";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Hamburger from "../Hamburger";
 import Language from "../Language";
+import CardGroupAnimation from "../cardAnimation/CardGroupAnimation";
 // import { useState } from "react";
 
 const HeroTop = () => {
@@ -69,7 +66,7 @@ const HeroTop = () => {
             </Slider>
           </div>
 
-          <div className="hidden lg:grid grid-cols-1 p-3 rounded-2xl px-32">
+          {/* <div className="hidden lg:grid grid-cols-1 p-3 rounded-2xl px-32">
             <Slider {...settings} className="">
               {heroAnimation2Data.map((images, i) => {
                 return (
@@ -79,6 +76,9 @@ const HeroTop = () => {
                 );
               })}
             </Slider>
+          </div> */}
+          <div className="">
+            <CardGroupAnimation></CardGroupAnimation>
           </div>
         </div>
       </div>

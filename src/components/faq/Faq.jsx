@@ -3,7 +3,7 @@ import FaqReadMore from "./FaqReadMore";
 
 const Faq = () => {
   return (
-    <div className="mt-[600px] md:px-32 mb-20 sm:pt-80 md:pt-0">
+    <div className="lg:px-32 mb-20 ">
       <div>
         <h1 className="text-4xl text-[#3A2A82] font-semibold my-4 px-8">
           FAQ
@@ -19,11 +19,11 @@ const Faq = () => {
           </p>
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
-        <div className="">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="px-3">
           {faqData.map((value, i) => {
             return (
-              <div key={i} className="mb-2">
+              <div key={i} className="mb-2 my-4">
                 <FaqReadMore
                   title={value.title}
                   description={value.description}

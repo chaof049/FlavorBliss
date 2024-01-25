@@ -6,9 +6,10 @@ export default {
       fontFamily: {
         "my-custom-font": ["my-custom-font", "Gilroy,Tahoma,sans-serif"],
       },
-      backgroundImage:{
-        'hero-pattern':"url(/hero-bg.png)",
-      }
+      backgroundImage: {
+        "hero-pattern": "url(/hero-bg.png)",
+        "md-pattern": "url(/bg-md-v.png)",
+      },
     },
   },
   plugins: [],

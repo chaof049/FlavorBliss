@@ -14,7 +14,7 @@ const Footer = () => {
             </span>
           </h1>
         </div>
-        <div className="flex gap-4 lg:px-28 pt-6 ">
+        <div className="flex gap-4 lg:px-16 pt-6">
           {footer2Data.map((value, i) => {
             return (
               <div key={i}>
@@ -51,7 +51,7 @@ const Footer = () => {
             );
           })}
         </div>
-        <div className="left-[45%] bottom-[50%] absolute">
+        <div className="bottom-[50%] absolute flex justify-center w-full">
           <button className="flex items-center px-3 py-3 rounded-xl bg-[#FE2F67] hover:bg-[#3A2A82] text-white text-xs font-bold shadow-lg shadow-[#fe2f669d] hover:shadow-[#3a2a82a3]">
             Try For Free Now
             <span className="ml-1">
@@ -66,10 +66,10 @@ const Footer = () => {
         ></img>
       </div>
       <div className="bg-[#1F1540]">
-        <div className="md:px-48 py-12">
+        <div className="md:px-16 lg:px-48 py-12">
           <div className="flex  flex-col-reverse md:flex-row relative h-auto lg:h-[200px] border border-[#5E5776] bg-white bg-opacity-20 p-8 rounded-xl">
-            <div className="flex-1">
-              <h1 className="text-xl text-[#BBC4DC]">
+            <div className="flex-1 flex flex-col w-full">
+              <h1 className="text-xl text-[#BBC4DC] text-center md:text-left">
                 READY TO START?
                 <span className="text-2xl font-bold text-[#FFFFFF] block">
                   Bring your ad creative game
@@ -78,7 +78,7 @@ const Footer = () => {
                   </span>
                 </span>
               </h1>
-              <div className="flex items-center">
+              <div className="flex flex-col md:flex-row items-center">
                 <button className="flex items-center text-xs mr-2 my-2 px-3 py-3 rounded-xl border border-white border-opacity-20 bg-white hover:bg-[#3A2A82] text-[#FE2F67] hover:text-white font-bold shadow-md">
                   Generate Ad Creatives
                   <span className="ml-1">
@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
         <div className=" bg-[#181231] py-14">
           <div className="grid grid-cols-1 md:grid-cols-3 px-32">
-            <div className="text-[#BBC4DC] text-xs text-left">
+            <div className="text-[#BBC4DC] text-xs text-center md:text-left">
               <div className="flex h-12">
                 <img
                   src="/footer/adFooter.png"

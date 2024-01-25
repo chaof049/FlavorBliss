@@ -9,7 +9,7 @@ const FaqReadMore = (props) => {
     setIsExpanded(!isExpanded);
   };
   return (
-    <div className="border border-[#FEFEFE] py-4 px-8 bg-[#F9F9FE] rounded-2xl w-[600px]">
+    <div className="border border-[#FEFEFE] py-4 px-8 bg-[#F9F9FE] rounded-2xl w-auto">
       <h2
         onClick={toggleReadMore}
         className={`flex justify-between font-semibold ${

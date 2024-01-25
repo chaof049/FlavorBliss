@@ -85,8 +85,8 @@ const Ad = () => {
           </h1>
         </div>
 
-        <div className="flex justify-center gap-5 h-[200px] my-8">
-          <div className="p-4 w-auto rounded-2xl bg-gradient-to-b from-[#F92F6A] to-[#5615AA]">
+        <div className="flex justify-center gap-5 h-[230px] md:h-[200px] my-8">
+          <div className="p-4 w-[180px] md:w-auto rounded-2xl bg-gradient-to-b from-[#F92F6A] to-[#5615AA]">
             <img src="/arrows/up.png" alt="upArrow" className="h-9 mb-2"></img>
             <h1 className="text-white text-lg font-bold">
               Up to 14x
@@ -96,9 +96,9 @@ const Ad = () => {
               </span>
               <span className="block text-xs font-thin">not data-backed.</span>
             </h1>
-            <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
+            <hr className="w-26 md:w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
           </div>
-          <div className="p-4 w-auto rounded-2xl bg-gradient-to-b from-[#FBC523] to-[#FA6627]">
+          <div className="p-4 w-[180px] md:w-auto rounded-2xl bg-gradient-to-b from-[#FBC523] to-[#FA6627]">
             <img src="/arrows/nav.png" alt="upArrow" className="h-9 mb-2"></img>
             <h1 className="text-white text-lg font-bold">
               Over 95%
@@ -108,9 +108,36 @@ const Ad = () => {
               </span>
               <span className="block text-xs font-thin">creatives.</span>
             </h1>
-            <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
+            <hr className="w-26 md:w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>
           </div>
         </div>
+
+        {/* <div className="flex w-11/12 md:w-1/2 items-center justify-center gap-x-5  h-[200px] my-8">
+          <div className="p-4 w-3/5 md:w-52 rounded-2xl bg-gradient-to-b from-[#F92F6A] to-[#5615AA]">
+            <img src="/arrows/up.png" alt="upArrow" className="h-9 mb-2"></img>
+            <h1 className="text-white text-lg font-bold">
+              Up to 14x
+              <span className="block text-sm">Higher Conversion Rates</span>
+              <span className="block text-xs font-thin">
+                Compared to creatives that are
+              </span>
+              <span className="block text-xs font-thin">not data-backed.</span>
+            </h1>
+            <hr className=" h-1 mx-auto mt-4 bg-gray-100 border-0 rounded md:mt-10"></hr>
+          </div>
+          <div className="p-4 w-3/5 md:w-52 rounded-2xl bg-gradient-to-b from-[#FBC523] to-[#FA6627]">
+            <img src="/arrows/nav.png" alt="upArrow" className="h-9 mb-2"></img>
+            <h1 className="text-white text-lg font-bold">
+              Over 95%
+              <span className="block text-sm">Of the users improve CTR</span>
+              <span className="block text-xs font-thin">
+                In their first month, using our
+              </span>
+              <span className="block text-xs font-thin">creatives.</span>
+            </h1>
+            <hr className=" h-1 mx-auto mt-4 bg-gray-100 border-0 rounded md:mt-10"></hr>
+          </div>
+        </div> */}
 
         <div className="flex flex-col items-center">
           <button className="flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-lg shadow-[#3a2a82a3] hover:shadow-[#fe2f669d]">

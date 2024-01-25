@@ -2,7 +2,7 @@
 
 export const FooterBox = (props) => {
   return (
-    <div className="border border-white p-4 bg-white rounded-xl w-[12rem]">
+    <div className="border border-white p-4 bg-white rounded-xl w-[250px]">
       <h1 className="text-sm text-[#2A1A6D] py-2 font-bold">{props.title}</h1>
       <p className="text-xs text-wrap text-[#6C638A]">{props.description}</p>
     </div>

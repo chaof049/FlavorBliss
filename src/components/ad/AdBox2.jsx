@@ -4,7 +4,7 @@ import { adBox2Data } from "../../assets/adBoxesData";
 
 const AdBox2 = () => {
   return (
-    <div className="flex flex-col md:flex-row px-4 md:px-48">
+    <div className="flex flex-col md:flex-row px-4 md:px-48 my-8">
       <div className="flex-1 flex flex-col justify-center">
         <h1 className="text-3xl text-[#3A2A82] text-center font-semibold md:text-left">
           Why

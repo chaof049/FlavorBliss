@@ -22,7 +22,7 @@ const AdBox2 = () => {
             how you should use Adcreative.ai
           </span>
         </h1>
-        <div className="flex flex-col items-start w-full">
+        <div className="flex flex-col items-center md:items-start w-full">
           <button className=" flex items-center my-4 px-3 py-3 rounded-xl bg-[#3A2A82] hover:bg-[#FE2F67] text-white font-bold shadow-lg shadow-[#3a2a82a3] hover:shadow-[#fe2f669d]">
             Generate Ad Creatives
             <span className="ml-1">

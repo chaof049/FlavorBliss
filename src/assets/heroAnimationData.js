@@ -1,55 +1,73 @@
 export const heroAnimationData = [
   [
     {
-      title: "brand",
-      image: "/logo.png",
+      title: "Brand",
+      image: "/hero/tesla.png",
     },
     {
-      title: "brand",
-      image: "/logo.png",
+      title: "Size",
+      image: "Post Size (1080x1080)",
     },
     {
-      title: "brand",
-      image: "/logo.png",
+      title: "Text",
+      image: "Reach your ideal custom..",
     },
     {
-      title: "brand",
-      image: "/logo.png",
-    },
-  ],
-  [
-    {
-      title: "logo",
-      image: "/logo.png",
-    },
-    {
-      title: "logo",
-      image: "/logo.png",
-    },
-    {
-      title: "logo",
-      image: "/logo.png",
-    },
-    {
-      title: "logo",
+      title: "Image",
       image: "/logo.png",
     },
   ],
   [
     {
-      title: "third",
-      image: "/logo.png",
+      title: "Brand",
+      image: "/hero/ua.png",
     },
     {
-      title: "third",
-      image: "/logo.png",
+      title: "Size",
+      image: "Vertical Size‍ (1080x1350)",
     },
     {
-      title: "third",
-      image: "/logo.png",
+      title: "Text",
+      image: "Reach your ideal custom..",
     },
     {
-      title: "third",
+      title: "Image",
+      image: "/logo.png",
+    },
+  ],
+  [
+    {
+      title: "Brand",
+      image: "/hero/wework.png",
+    },
+    {
+      title: "Size",
+      image: "Landscape (1200x628)",
+    },
+    {
+      title: "Text",
+      image: "Much more than an offic..",
+    },
+    {
+      title: "Image",
+      image: "/logo.png",
+    },
+  ],
+  [
+    {
+      title: "Brand",
+      image: "/hero/lin.png",
+    },
+    {
+      title: "Size",
+      image: "Vertical Size‍ (1080x1350)",
+    },
+    {
+      title: "Text",
+      image: "Reach your ideal custom..",
+    },
+    {
+      title: "Image",
       image: "/logo.png",
     },
   ],
@@ -58,53 +76,70 @@ export const heroAnimationData = [
 export const heroAnimation2Data = [
   [
     {
-      image: "/tesla1.png",
+      image: "/hero/tesla1.png",
     },
     {
-      image: "/tesla2.png",
+      image: "/hero/tesla2.png",
     },
     {
-      image: "/tesla3.png",
+      image: "/hero/tesla3.png",
     },
     {
-      image: "/tesla4.png",
+      image: "/hero/tesla4.png",
     },
     {
-      image: "/gordon.png",
-    },
-  ],
-  [
-    {
-      image: "/gordon.png",
-    },
-    {
-      image: "/tesla2.png",
-    },
-    {
-      image: "/tesla3.png",
-    },
-    {
-      image: "/tesla4.png",
-    },
-    {
-      image: "/tesla5.png",
+      image: "/hero/tesla5.png",
     },
   ],
   [
     {
-      image: "/tesla1.png",
+      image: "/hero/ua1.webp",
     },
     {
-      image: "/tesla2.png",
+      image: "/hero/ua2.webp",
     },
     {
-      image: "/tesla3.png",
+      image: "/hero/ua3.webp",
     },
     {
-      image: "/tesla4.png",
+      image: "/hero/ua4.webp",
     },
     {
-      image: "/tesla5.png",
+      image: "/hero/ua2.webp",
+    },
+  ],
+  [
+    {
+      image: "/hero/wework1.webp",
+    },
+    {
+      image: "/hero/wework2.webp",
+    },
+    {
+      image: "/hero/wework3.webp",
+    },
+    {
+      image: "/hero/wework3.webp",
+    },
+    {
+      image: "/hero/wework1.webp",
+    },
+  ],
+  [
+    {
+      image: "/hero/link1.webp",
+    },
+    {
+      image: "/hero/link2.webp",
+    },
+    {
+      image: "/hero/link3.webp",
+    },
+    {
+      image: "/hero/link4.webp",
+    },
+    {
+      image: "/hero/link5.webp",
     },
   ],
 ];

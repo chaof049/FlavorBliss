@@ -54,12 +54,14 @@ const HeroTop = () => {
           </span>
         </button>
         <div className="mt-4 flex flex-col items-center">
-          <div className="grid grid-cols-1 p-3 rounded-2xl">
-            {/* <div className="flex justify-center bg-[#F4F2FB] p-3 rounded-2xl"> */}
+          <div className="grid grid-cols-1 px-14 md:p-3 rounded-2xl">
             <Slider {...settings} className="">
               {heroAnimationData.map((value, i) => {
                 return (
-                  <div key={i} className="w-full flex px-72">
+                  <div
+                    key={i}
+                    className="w-full flex md:px-12 lg:px-48 xl:px-72"
+                  >
                     <HeroAnimation value={value}></HeroAnimation>
                   </div>
                 );
@@ -67,7 +69,7 @@ const HeroTop = () => {
             </Slider>
           </div>
 
-          <div className="grid grid-cols-1 p-3 rounded-2xl px-32">
+          <div className="hidden lg:grid grid-cols-1 p-3 rounded-2xl px-32">
             <Slider {...settings} className="">
               {heroAnimation2Data.map((images, i) => {
                 return (

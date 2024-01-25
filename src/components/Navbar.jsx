@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className={`z-[999] hidden md:flex md:items-center md:justify-between w-full top-0 bg-[#FCFCFE] backdrop-blur-md bg-opacity-85 px-32 py-2 items-center font-medium text-sm fixed duration-300 transition-all ${
+        className={`z-[999] hidden lg:flex lg:items-center lg:justify-between w-full top-0 bg-[#FCFCFE] backdrop-blur-md bg-opacity-85 px-32 py-2 items-center font-medium text-sm fixed duration-300 transition-all ${
           showNavbar
             ? "transform translate-y-[0]"
             : "transform -translate-y-[100%]"

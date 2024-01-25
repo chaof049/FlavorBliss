@@ -21,8 +21,12 @@ export const footer2Data = [
   },
   {
     title: "Game Changer",
-    description: "",
+    description:
+      "This incredible platform not only saves time but also consistently delivers top-quality ad creatives. Since I started using AdCreative.ai, my campaigns have seen a substantial boost in performance. It's a must-have for marketers and advertisers.",
   },
+];
+
+export const footer3Data = [
   {
     title: "Fast learning curve",
     description:
@@ -43,6 +47,9 @@ export const footer2Data = [
     description:
       "I wish other services had this functional AI as AdCreative. Got it recommended from a youtube channel and been using it for the past 3 months. Never had any issues. Support is also top notch!",
   },
+];
+
+export const footer4Data = [
   {
     title: "We have been taking help from it non-stop",
     description:

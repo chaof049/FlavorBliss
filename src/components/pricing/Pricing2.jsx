@@ -6,7 +6,7 @@ import { pricingList1Data, pricingList2Data } from "../../assets/pricingData";
 const Pricing2 = () => {
   return (
     <>
-      <div className=" px-5 md:px-32 absolute z-10">
+      <div className=" px-5 md:px-10 xl:px-32 absolute z-10">
         <div className="bg-[#1F1541] py-8 px-16 rounded-3xl">
           <div className="pt-4">
             <h1 className="text-2xl text-[#BBC4DC]">
@@ -27,7 +27,7 @@ const Pricing2 = () => {
               </span>
             </h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 gap-4 mt-8">
             {pricingList1Data.map((value, i) => {
               return (
                 <div key={i} className="">
@@ -55,9 +55,10 @@ const Pricing2 = () => {
           </div>
         </div>
       </div>
-      <section className="md:p-16">
-        <div className="bg-[#FF2F66] p-4 md:p-20 rounded-3xl translate-y-[30%] md:px-16">
-          <div className="px-20 mt-1 translate-y-[300%]">
+
+      <section className="xl:p-16">
+        <div className="bg-[#FF2F66] p-4 xl:p-20 rounded-3xl translate-y-[20%] md:translate-y-[30%] xl:px-16">
+          <div className="px-20 mt-1 sm:translate-y-[730%] md:translate-y-[300%]">
             <h1 className="text-white text-3xl">
               See results from day one.
               <span className="block font-bold">
@@ -69,7 +70,7 @@ const Pricing2 = () => {
               </span>
             </h1>
           </div>
-          <div className="bg-white bg-opacity-50 p-12 mx-8 md:mx-4 rounded-2xl border border-[#FDFDFF] translate-y-[50%]">
+          <div className="bg-white bg-opacity-50 p-12 mx-8 md:mx-4 rounded-2xl border border-[#FDFDFF] sm:translate-y-[65%] md:translate-y-[50%]">
             <div className="-translate-y-[160%] flex gap-4 px-4">
               <p className="bg-[#1F1540] text-white rounded-xl px-8 py-2">
                 Monthly
@@ -89,7 +90,7 @@ const Pricing2 = () => {
                 </button>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8">
               {pricingList2Data.map((value, i) => {
                 return (
                   <div key={i} className="">

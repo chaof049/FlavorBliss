@@ -60,33 +60,54 @@ const TiltCard = (props) => {
           }}
           className="absolute inset-4 grid place-content-center rounded-xl bg-transparent"
         >
-          <p
+          {/* <p
             style={{
               transform: "translateZ(50px)",
             }}
             className="text-center text-2xl font-bold flex justify-center items-center"
           >
             <img
-              src={props.images[4].image}
+              src={props.images[3].image}
               alt="tesla"
               className="translate-x-[70%] h-[200px]"
             ></img>
             <img
-              src={props.images[3].image}
+              src={props.images[2].image}
               alt="tesla"
               className="translate-x-[30%] h-[250px] z-10"
             ></img>
-            <img src={props.images[2].image} alt="tesla" className="z-20"></img>
+            <img src={props.images[0].image} alt="tesla" className="z-20"></img>
             <img
               src={props.images[1].image}
               alt="tesla"
               className="-translate-x-[30%] h-[250px] z-10"
             ></img>
             <img
-              src={props.images[0].image}
+              src={props.images[4].image}
               alt="tesla"
               className="-translate-x-[70%] h-[200px]"
             ></img>
+          </p> */}
+          <p
+            style={{
+              transform: "translateZ(50px)",
+            }}
+            className="text-center text-2xl font-bold flex justify-center items-center"
+          >
+            {props.images.map((image, index) => (
+              <motion.img
+                key={index}
+                src={image.image}
+                alt={`tesla-${index}`}
+                className={`transform rotateY(${rotateY.get()}) rotateX(${rotateX.get()}) translate-z(75px) translateX(${
+                  index * 15
+                }px) h-[${
+                  index === 2 ? 250 : 200 - Math.abs(index - 2) * 25
+                }px] z-${index + 1}`}
+                onMouseMove={handleMouseMove}
+                onMouseLeave={handleMouseLeave}
+              />
+            ))}
           </p>
         </div>
       </motion.div>

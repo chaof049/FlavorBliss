@@ -1,9 +1,11 @@
 import { BsStack } from "react-icons/bs";
+import { footer2Data, footer3Data, footer4Data } from "../assets/footerBox";
+import { FooterBox, FooterBox2, FooterBox3 } from "./FooterBox";
 
 const Footer = () => {
   return (
     <div>
-      <div className="bg-cover bg-center bg-[url('/bottom-v.png')] bg-no-repeat h-screen relative">
+      <div className="overflow-hidden relative">
         <div className="flex justify-center font-semibold">
           <h1 className="text-2xl text-center bg-clip-text text-transparent bg-gradient-to-r from-[#4F14AD] to-[#FE276E]">
             #1 most used & most talked-about
@@ -12,8 +14,44 @@ const Footer = () => {
             </span>
           </h1>
         </div>
-        <div></div>
-        <div className="flex justify-center">
+        <div className="flex gap-4 px-28 pt-6">
+          {footer2Data.map((value, i) => {
+            return (
+              <div key={i}>
+                <FooterBox
+                  title={value.title}
+                  description={value.description}
+                ></FooterBox>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="flex gap-4 py-4 opacity-40">
+          {footer3Data.map((value, i) => {
+            return (
+              <div key={i}>
+                <FooterBox2
+                  title={value.title}
+                  description={value.description}
+                ></FooterBox2>
+              </div>
+            );
+          })}
+        </div>
+        <div className="flex gap-4 opacity-20">
+          {footer4Data.map((value, i) => {
+            return (
+              <div key={i}>
+                <FooterBox3
+                  title={value.title}
+                  description={value.description}
+                ></FooterBox3>
+              </div>
+            );
+          })}
+        </div>
+        <div className="left-[45%] bottom-[50%] absolute">
           <button className="flex items-center px-3 py-3 rounded-xl bg-[#FE2F67] hover:bg-[#3A2A82] text-white text-xs font-bold shadow-lg shadow-[#fe2f669d] hover:shadow-[#3a2a82a3]">
             Try For Free Now
             <span className="ml-1">
@@ -21,6 +59,11 @@ const Footer = () => {
             </span>
           </button>
         </div>
+        <img
+          src="/bottom-v.png"
+          alt="bottom-v"
+          className="absolute bottom-0"
+        ></img>
       </div>
       <div className="bg-[#1F1540]">
         <div className="md:px-48 py-12">

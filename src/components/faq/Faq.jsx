@@ -3,7 +3,7 @@ import FaqReadMore from "./FaqReadMore";
 
 const Faq = () => {
   return (
-    <div className="mt-[600px] pl-32 mb-20">
+    <div className="mt-[600px] md:px-32 mb-20 sm:pt-80 md:pt-0">
       <div>
         <h1 className="text-4xl text-[#3A2A82] font-semibold my-4 px-8">
           FAQ

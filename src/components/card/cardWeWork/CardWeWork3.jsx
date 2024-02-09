@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { motion, useMotionValue, useTransform } from "framer-motion";
 
-export const CardAnimation3 = ({ isHovered }) => {
+export const CardWeWork3 = ({ isHovered }) => {
   const cardX = useMotionValue(0);
   const cardY = useMotionValue(0);
   const rotateX = useTransform(cardY, [-300, 300], [10, -10]); // Reversed values
@@ -58,8 +58,6 @@ export const CardAnimation3 = ({ isHovered }) => {
             key="card"
             style={{
               borderRadius: 10,
-              width: 400,
-              height: 250,
               transformStyle: "preserve-3d",
               perspective: 800, // Set perspective on the card
               rotateX: isHovered ? cardRotateX : 0, // Apply rotation if hovered
@@ -68,7 +66,11 @@ export const CardAnimation3 = ({ isHovered }) => {
             transition={{ velocity: 0 }}
           >
             <div className="">
-              <img src="/hero/tesla1.png" alt="tesla1" className=""></img>
+              <img
+                src="/hero/wework3.webp"
+                alt="wework3"
+                className=""
+              ></img>
             </div>
           </motion.div>
         </motion.div>

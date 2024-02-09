@@ -14,11 +14,11 @@ const HeroAnimation = (props) => {
             </div>
 
             {item.image.includes("/") ? (
-              <div className="flex-1 flex  items-center justify-center w-full">
+              <div className="flex-1 flex  items-center justify-center w-24 ">
                 <img src={item.image} alt="logo"></img>
               </div>
             ) : (
-              <div className="flex-1 w-full flex  items-center justify-center text-xs px-4 text-wrap">
+              <div className="flex-1  flex  items-center justify-center text-xs px-4 text-wrap">
                 {item.image}
               </div>
             )}

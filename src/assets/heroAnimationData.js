@@ -14,7 +14,7 @@ export const heroAnimationData = [
     },
     {
       title: "Image",
-      image: "/logo.png",
+      image: "/hero/teslaT.webp",
     },
   ],
   [
@@ -32,7 +32,7 @@ export const heroAnimationData = [
     },
     {
       title: "Image",
-      image: "/logo.png",
+      image: "/hero/uaT.webp",
     },
   ],
   [
@@ -50,7 +50,7 @@ export const heroAnimationData = [
     },
     {
       title: "Image",
-      image: "/logo.png",
+      image: "/hero/weworkT.webp",
     },
   ],
   [
@@ -68,7 +68,7 @@ export const heroAnimationData = [
     },
     {
       title: "Image",
-      image: "/logo.png",
+      image: "/hero/linkT.webp",
     },
   ],
 ];
@@ -79,50 +79,41 @@ export const heroAnimation2Data = [
       image: "/hero/tesla1.png",
     },
     {
-      image: "/hero/tesla2.png",
+      image: "/hero/ua1.png",
     },
     {
-      image: "/hero/tesla3.png",
+      image: "/hero/wework1.png",
     },
     {
-      image: "/hero/tesla4.png",
-    },
-    {
-      image: "/hero/tesla5.png",
+      image: "/hero/link1.png",
     },
   ],
   [
     {
-      image: "/hero/ua1.webp",
+      image: "/hero/tesla2.webp",
     },
     {
       image: "/hero/ua2.webp",
-    },
-    {
-      image: "/hero/ua3.webp",
-    },
-    {
-      image: "/hero/ua4.webp",
-    },
-    {
-      image: "/hero/ua2.webp",
-    },
-  ],
-  [
-    {
-      image: "/hero/wework1.webp",
     },
     {
       image: "/hero/wework2.webp",
     },
     {
-      image: "/hero/wework3.webp",
+      image: "/hero/link2.webp",
+    },
+  ],
+  [
+    {
+      image: "/hero/tesla3.webp",
+    },
+    {
+      image: "/hero/ua3.webp",
     },
     {
       image: "/hero/wework3.webp",
     },
     {
-      image: "/hero/wework1.webp",
+      image: "/hero/link3.webp",
     },
   ],
   [

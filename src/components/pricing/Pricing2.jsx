@@ -57,7 +57,7 @@ const Pricing2 = () => {
       </div>
 
       <section className="xl:p-16">
-        <div className="bg-[#FF2F66] p-4 xl:p-20 rounded-3xl translate-y-[35%] lg:translate-y-[30%] xl:translate-y-[20%] h-[1800px] md:h-[1000px] lg:h-[800px] xl:px-16 z-0">
+        <div className="bg-[#FF2F66] p-4 xl:p-20 rounded-3xl translate-y-[35%] md:translate-y-[20%] lg:translate-y-[30%] xl:translate-y-[20%] h-[1800px] md:h-[1000px] lg:h-[800px] xl:px-16 z-0">
           <div className="px-20  mt-[650px] md:mt-[550px] lg:mt-[350px]">
             <h1 className="text-white text-3xl">
               See results from day one.

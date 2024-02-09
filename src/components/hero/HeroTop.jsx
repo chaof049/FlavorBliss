@@ -6,7 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Hamburger from "../Hamburger";
 import Language from "../Language";
-import CardGroupAnimation from "../cardAnimation/CardGroupAnimation";
+import { CardGroupTesla } from "../card/cardTesla/CardGroupAnimation";
+import CardGroupUA from "../card/cardUA/CardGroupUA";
+import CardGroupLink from "../card/cardLink/CardGroupLink";
+import CardGroupWeWork from "../card/cardWeWork/CardGroupLink";
 // import { useState } from "react";
 
 const HeroTop = () => {
@@ -19,10 +22,11 @@ const HeroTop = () => {
     infinite: true,
     autoplay: true,
     speed: 500,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
+    // centerMode: true,
   };
   return (
     <div className="border-2 border-white  rounded-lg bg-white bg-opacity-30 relative">
@@ -65,21 +69,25 @@ const HeroTop = () => {
               })}
             </Slider>
           </div>
-
-          {/* <div className="hidden lg:grid grid-cols-1 p-3 rounded-2xl px-32">
-            <Slider {...settings} className="">
-              {heroAnimation2Data.map((images, i) => {
-                return (
-                  <div key={i} className="w-full">
-                    <TiltCard images={images}></TiltCard>
-                  </div>
-                );
-              })}
-            </Slider>
-          </div> */}
-          <div className="">
-            <CardGroupAnimation></CardGroupAnimation>
-          </div>
+        </div>
+        <div className="hidden lg:grid grid-cols-1">
+          <Slider {...settings} className="px-4">
+            <div>
+              <CardGroupTesla />
+            </div>
+            <div>
+              <CardGroupUA />
+            </div>
+            <div>
+              <CardGroupWeWork />
+            </div>
+            <div>
+              <CardGroupLink />
+            </div>
+          </Slider>
+        </div>
+        <div className="lg:hidden">
+          <img src="/hero/teslaC.webp" alt="tesla"></img>
         </div>
       </div>
     </div>

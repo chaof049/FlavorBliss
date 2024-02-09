@@ -67,7 +67,7 @@ const Pricing1 = () => {
               <img
                 src="/shape1.png"
                 alt="shape"
-                className="p-2 scale-95 xl:scale-100"
+                className="p-2  xl:scale-100"
               ></img>
             </div>
             <div>
@@ -188,7 +188,7 @@ const Pricing1 = () => {
         </h1>
       </div>
       <div className="flex justify-center">
-        <img src="/semrush.png" className="semrush"></img>
+        <img src="/semrush.png" className="semrush mb-8"></img>
       </div>
     </div>
   );

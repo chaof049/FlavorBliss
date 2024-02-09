@@ -60,7 +60,7 @@ const Pricing1 = () => {
           <img
             src="/bg-md.png"
             alt="mid-bg"
-            className="absolute top-[60px] left-0 "
+            className="absolute lg:top-[85px] xl:top-[60px] left-0 "
           ></img>
           <div className="top-[35%] w-[100%] flex absolute -right-[30px] z-50 justify-between items-center ">
             <div>
